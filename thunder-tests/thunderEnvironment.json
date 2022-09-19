@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "53856b82-2900-4588-ac32-e25da1f446ab",
+    "name": "cwie-fba-enviroment.json",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2022-09-19T06:28:20.517Z",
+    "modified": "2022-09-19T06:29:05.468Z",
+    "data": [
+      {
+        "name": "url",
+        "value": "http://localhost:8084/api/v1"
+      },
+      {
+        "name": "access_token",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFybm9uciIsImV4cCI6MTY2MzA4ODUwMSwiaWF0IjoxNjYyMjI0NTAxfQ.5IWHv8Fsnz1xThKT3wX1r7VR_IO4H0E-xEZpUXqaaZ4"
+      }
+    ]
+  }
+]
