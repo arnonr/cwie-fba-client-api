@@ -1562,5 +1562,87 @@
       "type": "bearer",
       "bearer": "{{access_token}}"
     }
+  },
+  {
+    "_id": "f44f02ba-0604-4eb9-9865-548e1d008e9c",
+    "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
+    "containerId": "74e3aad8-9f8e-4561-a266-99310fcdb485",
+    "name": "getAll",
+    "url": "{{url}}/news",
+    "method": "GET",
+    "sortNum": 400000,
+    "created": "2022-09-19T07:38:10.265Z",
+    "modified": "2022-09-19T07:38:52.640Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "e19679b3-ce95-437d-9046-cc8fec50f161",
+    "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
+    "containerId": "74e3aad8-9f8e-4561-a266-99310fcdb485",
+    "name": "insert",
+    "url": "{{url}}/news",
+    "method": "POST",
+    "sortNum": 410000,
+    "created": "2022-09-19T07:38:10.266Z",
+    "modified": "2022-09-19T07:38:58.167Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"faculty_code\": \"02\",\n    \"name_th\": \"คณะครุศาสตร์อุตสาหกรรม\",\n    \"name_en\": \"FACULTY OF TECHNICAL EDUCATION\"\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "901cb85b-f4aa-4c20-bcd2-9410aff6a734",
+    "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
+    "containerId": "74e3aad8-9f8e-4561-a266-99310fcdb485",
+    "name": "update",
+    "url": "{{url}}/news/1",
+    "method": "PUT",
+    "sortNum": 420000,
+    "created": "2022-09-19T07:38:10.267Z",
+    "modified": "2022-09-19T07:39:02.499Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"name\": \"แผนที่สหกิจ2\",\n    \"description\": \"ddd\"\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFybm9uciIsImV4cCI6MTY2MzA4ODUwMSwiaWF0IjoxNjYyMjI0NTAxfQ.5IWHv8Fsnz1xThKT3wX1r7VR_IO4H0E-xEZpUXqaaZ4"
+    },
+    "tests": []
+  },
+  {
+    "_id": "c7f83d70-897f-417a-a529-c31200576ee7",
+    "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
+    "containerId": "74e3aad8-9f8e-4561-a266-99310fcdb485",
+    "name": "delete",
+    "url": "{{url}}/news/1",
+    "method": "DELETE",
+    "sortNum": 430000,
+    "created": "2022-09-19T07:38:10.268Z",
+    "modified": "2022-09-19T07:39:06.580Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
   }
 ]
