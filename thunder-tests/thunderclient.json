@@ -536,94 +536,6 @@
     }
   },
   {
-    "_id": "655f02d3-36cb-4065-afd2-dc410b23d6b4",
-    "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
-    "containerId": "72b768dc-dd8f-4b28-923c-c351dd516b00",
-    "name": "getAll",
-    "url": "{{url}}/form-status",
-    "method": "GET",
-    "sortNum": 310000,
-    "created": "2022-09-19T06:24:35.380Z",
-    "modified": "2022-09-19T06:24:35.380Z",
-    "headers": [],
-    "auth": {
-      "type": "bearer",
-      "bearer": "{{access_token}}"
-    }
-  },
-  {
-    "_id": "382f6cd6-bd9a-4401-96e1-c452ac3c4f0c",
-    "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
-    "containerId": "72b768dc-dd8f-4b28-923c-c351dd516b00",
-    "name": "findByID",
-    "url": "{{url}}/form-status/1",
-    "method": "GET",
-    "sortNum": 320000,
-    "created": "2022-09-19T06:24:35.381Z",
-    "modified": "2022-09-19T06:24:35.381Z",
-    "headers": [],
-    "auth": {
-      "type": "bearer",
-      "bearer": "{{access_token}}"
-    }
-  },
-  {
-    "_id": "5ef68ca8-812c-4913-b72b-a74c59fe4f9f",
-    "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
-    "containerId": "72b768dc-dd8f-4b28-923c-c351dd516b00",
-    "name": "insert",
-    "url": "{{url}}/form-status",
-    "method": "POST",
-    "sortNum": 330000,
-    "created": "2022-09-19T06:24:35.382Z",
-    "modified": "2022-09-19T06:24:35.382Z",
-    "headers": [],
-    "body": {
-      "type": "json",
-      "raw": "{\n    \"faculty_id\": \"1\",\n    \"department_code\": \"1\",\n    \"name_th\": \"คณะครุศาสตร์อุตสาหกรรม\",\n    \"name_en\": \"FACULTY OF TECHNICAL EDUCATION\"\n}"
-    },
-    "auth": {
-      "type": "bearer",
-      "bearer": "{{access_token}}"
-    }
-  },
-  {
-    "_id": "ae916b3a-f668-4a0f-ac5c-a61325256d51",
-    "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
-    "containerId": "72b768dc-dd8f-4b28-923c-c351dd516b00",
-    "name": "update",
-    "url": "{{url}}/form-status/1",
-    "method": "PUT",
-    "sortNum": 340000,
-    "created": "2022-09-19T06:24:35.383Z",
-    "modified": "2022-09-19T06:24:35.383Z",
-    "headers": [],
-    "body": {
-      "type": "json",
-      "raw": "{\n    \"name\": \"แผนที่สหกิจ2\",\n    \"description\": \"ddd\"\n}"
-    },
-    "auth": {
-      "type": "bearer",
-      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFybm9uciIsImV4cCI6MTY2MzA4ODUwMSwiaWF0IjoxNjYyMjI0NTAxfQ.5IWHv8Fsnz1xThKT3wX1r7VR_IO4H0E-xEZpUXqaaZ4"
-    }
-  },
-  {
-    "_id": "64b08173-cbd2-4d9f-9b0b-6c9d0e511ba2",
-    "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
-    "containerId": "72b768dc-dd8f-4b28-923c-c351dd516b00",
-    "name": "delete",
-    "url": "{{url}}/form-status/1",
-    "method": "DELETE",
-    "sortNum": 350000,
-    "created": "2022-09-19T06:24:35.384Z",
-    "modified": "2022-09-19T06:24:35.384Z",
-    "headers": [],
-    "auth": {
-      "type": "bearer",
-      "bearer": "{{access_token}}"
-    }
-  },
-  {
     "_id": "81dc5851-2340-48e7-b47f-16b3a6631f2d",
     "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
     "containerId": "f146a62a-74ab-44ba-a899-b6a52d30956d",
@@ -936,16 +848,19 @@
     "method": "POST",
     "sortNum": 530000,
     "created": "2022-09-19T06:24:35.403Z",
-    "modified": "2022-09-19T06:24:35.403Z",
+    "modified": "2022-09-21T16:39:37.527Z",
     "headers": [],
+    "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"faculty_code\": \"02\",\n    \"name_th\": \"คณะครุศาสตร์อุตสาหกรรม\",\n    \"name_en\": \"FACULTY OF TECHNICAL EDUCATION\"\n}"
+      "raw": "{\n    \"faculty_code\": \"02\",\n    \"name_th\": \"คณะครุศาสตร์อุตสาหกรรม\",\n    \"name_en\": \"FACULTY OF TECHNICAL EDUCATION\"\n}",
+      "form": []
     },
     "auth": {
       "type": "bearer",
       "bearer": "{{access_token}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "bfaa633f-640f-4331-92e8-fad8046c7431",
@@ -956,16 +871,19 @@
     "method": "PUT",
     "sortNum": 540000,
     "created": "2022-09-19T06:24:35.404Z",
-    "modified": "2022-09-19T06:24:35.404Z",
+    "modified": "2022-09-21T16:46:34.034Z",
     "headers": [],
+    "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"name\": \"แผนที่สหกิจ2\",\n    \"description\": \"ddd\"\n}"
+      "raw": "{\n    \"name\": \"แผนที่สหกิจ2\",\n    \"description\": \"ddd\"\n}",
+      "form": []
     },
     "auth": {
       "type": "bearer",
       "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFybm9uciIsImV4cCI6MTY2MzA4ODUwMSwiaWF0IjoxNjYyMjI0NTAxfQ.5IWHv8Fsnz1xThKT3wX1r7VR_IO4H0E-xEZpUXqaaZ4"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "155ecdd1-6427-4f7c-9769-fb9b0afa1b93",
@@ -1424,16 +1342,19 @@
     "method": "POST",
     "sortNum": 800000,
     "created": "2022-09-19T06:24:35.430Z",
-    "modified": "2022-09-19T06:24:35.430Z",
+    "modified": "2022-09-21T15:40:30.622Z",
     "headers": [],
+    "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"username\": \"arnonr\",\n    \"password\": \"12345678\"\n}"
+      "raw": "{\n    \"username\": \"arnonr\",\n    \"password\": \"12345678\"\n}",
+      "form": []
     },
     "auth": {
       "type": "bearer",
       "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjE3NDk2MDYsInVzZXJfbmFtZSI6ImJpb3RlY2giLCJhdXRob3JpdGllcyI6WyJST0xFX0FETUlOIl0sImp0aSI6IjEyZWFhYzYwLTdiNTgtNGFkMi05YTk4LTA0Y2RjZjQ0MjQ1OSIsImNsaWVudF9pZCI6InplYWx0ZWNoIiwic2NvcGUiOlsicmVhZCIsIndyaXRlIiwidHJ1c3QiXX0.f9gqUPMdLNB7WHIw6kLTh2WFOHnedjFa4XwNvE-tNMI"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "2c0fc28e-6342-44f7-9e3f-3e676b561c8a",
@@ -1590,12 +1511,12 @@
     "method": "POST",
     "sortNum": 410000,
     "created": "2022-09-19T07:38:10.266Z",
-    "modified": "2022-09-19T07:38:58.167Z",
+    "modified": "2022-09-21T16:43:52.373Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"faculty_code\": \"02\",\n    \"name_th\": \"คณะครุศาสตร์อุตสาหกรรม\",\n    \"name_en\": \"FACULTY OF TECHNICAL EDUCATION\"\n}",
+      "raw": "{\n    \"news_title\": \"ทดสอบข่าว\",\n    \"news_detail\": \"ทดสอบรายละเอียดข่าว\",\n    \"news_cate_id\":1\n}",
       "form": []
     },
     "auth": {
@@ -1613,17 +1534,17 @@
     "method": "PUT",
     "sortNum": 420000,
     "created": "2022-09-19T07:38:10.267Z",
-    "modified": "2022-09-19T07:39:02.499Z",
+    "modified": "2022-09-21T16:44:22.019Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"name\": \"แผนที่สหกิจ2\",\n    \"description\": \"ddd\"\n}",
+      "raw": "{\n    \"news_title\": \"ทดสอบข่าว\",\n    \"news_detail\": \"ทดสอบรายละเอียดข่าว\",\n    \"news_cate_id\":1\n}",
       "form": []
     },
     "auth": {
       "type": "bearer",
-      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFybm9uciIsImV4cCI6MTY2MzA4ODUwMSwiaWF0IjoxNjYyMjI0NTAxfQ.5IWHv8Fsnz1xThKT3wX1r7VR_IO4H0E-xEZpUXqaaZ4"
+      "bearer": "{{access_token}}"
     },
     "tests": []
   },
@@ -1644,5 +1565,167 @@
       "bearer": "{{access_token}}"
     },
     "tests": []
+  },
+  {
+    "_id": "a9d2e033-8a36-4c85-967f-84010d82c93b",
+    "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
+    "containerId": "39ebae52-ab2e-4462-8111-9c9843fcd51c",
+    "name": "getAll",
+    "url": "{{url}}/news-category",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-09-21T15:39:30.362Z",
+    "modified": "2022-09-21T15:39:55.186Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "d79a8b54-679d-4dd1-b72f-dc47c104f38d",
+    "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
+    "containerId": "39ebae52-ab2e-4462-8111-9c9843fcd51c",
+    "name": "insert",
+    "url": "{{url}}/news-category",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-09-21T15:39:30.363Z",
+    "modified": "2022-09-21T15:42:57.386Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"news_cate_name\": \"ข่าวสถานประกอบการ\"\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "293125fc-1a76-4f47-b3ed-5ce9edaf10e2",
+    "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
+    "containerId": "39ebae52-ab2e-4462-8111-9c9843fcd51c",
+    "name": "update",
+    "url": "{{url}}/news-category/1",
+    "method": "PUT",
+    "sortNum": 30000,
+    "created": "2022-09-21T15:39:30.364Z",
+    "modified": "2022-09-21T15:45:39.492Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"news_cate_name\": \"ข่าวสถานประกอบการ 2\"\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "33d78df1-99d7-468a-860e-8ccba0231bf3",
+    "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
+    "containerId": "39ebae52-ab2e-4462-8111-9c9843fcd51c",
+    "name": "delete",
+    "url": "{{url}}/news-category/2",
+    "method": "DELETE",
+    "sortNum": 40000,
+    "created": "2022-09-21T15:39:30.365Z",
+    "modified": "2022-09-21T15:46:38.161Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "3b809c1b-9b3d-4e42-84ce-447817303a2a",
+    "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
+    "containerId": "541c2dd5-608a-4752-8b07-d95d93b1ae3e",
+    "name": "getAll",
+    "url": "{{url}}/news",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-09-21T15:45:52.309Z",
+    "modified": "2022-09-21T15:46:48.887Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "ed737f0c-c1f6-41ca-8a86-846c9577753b",
+    "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
+    "containerId": "541c2dd5-608a-4752-8b07-d95d93b1ae3e",
+    "name": "insert",
+    "url": "{{url}}/news",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-09-21T15:45:52.310Z",
+    "modified": "2022-09-21T15:56:34.959Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"news_title\": \"ข่าวสถานประกอบการ\"\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "0c83dd0c-8f50-4bfe-b137-42015e6854c2",
+    "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
+    "containerId": "541c2dd5-608a-4752-8b07-d95d93b1ae3e",
+    "name": "update",
+    "url": "{{url}}/news-category/1",
+    "method": "PUT",
+    "sortNum": 30000,
+    "created": "2022-09-21T15:45:52.311Z",
+    "modified": "2022-09-21T15:45:52.309Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"news_cate_name\": \"ข่าวสถานประกอบการ 2\"\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "29e59612-ed24-41d1-a5b8-3cf7eb1ca8c3",
+    "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
+    "containerId": "541c2dd5-608a-4752-8b07-d95d93b1ae3e",
+    "name": "delete",
+    "url": "{{url}}/document-type/1",
+    "method": "DELETE",
+    "sortNum": 40000,
+    "created": "2022-09-21T15:45:52.312Z",
+    "modified": "2022-09-21T15:45:52.309Z",
+    "headers": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    }
   }
 ]

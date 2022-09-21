@@ -1,1 +1,61 @@
-[]
+[
+  {
+    "_id": "7e13fcfe-b3a1-4d3e-8f8d-ae3de0dff12b",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/news",
+    "url": "{{url}}/news",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-09-21T15:48:36.496Z",
+    "modified": "2022-09-21T16:00:56.448Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "30931a21-445c-4859-8705-57fbd13747a6",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/news",
+    "url": "{{url}}/news",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-09-21T15:50:36.811Z",
+    "modified": "2022-09-21T16:01:01.509Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"news_title\": \"ข่าวสถานประกอบการ\"\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "9ab105cd-db65-4433-a07c-e4456f1b30e1",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/news-category",
+    "url": "{{url}}/news-category",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-09-21T16:00:39.897Z",
+    "modified": "2022-09-21T16:00:40.251Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  }
+]

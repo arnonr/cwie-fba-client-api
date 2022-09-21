@@ -55,13 +55,6 @@
         "sortNum": 70000
       },
       {
-        "_id": "72b768dc-dd8f-4b28-923c-c351dd516b00",
-        "name": "form Copy",
-        "containerId": "",
-        "created": "2022-09-19T06:24:35.356Z",
-        "sortNum": 80000
-      },
-      {
         "_id": "f146a62a-74ab-44ba-a899-b6a52d30956d",
         "name": "major",
         "containerId": "",
@@ -144,6 +137,20 @@
         "containerId": "",
         "created": "2022-09-19T07:38:10.265Z",
         "sortNum": 105000
+      },
+      {
+        "_id": "39ebae52-ab2e-4462-8111-9c9843fcd51c",
+        "name": "news-category",
+        "containerId": "",
+        "created": "2022-09-21T15:39:30.362Z",
+        "sortNum": 15000
+      },
+      {
+        "_id": "541c2dd5-608a-4752-8b07-d95d93b1ae3e",
+        "name": "news",
+        "containerId": "",
+        "created": "2022-09-21T15:45:52.309Z",
+        "sortNum": 17500
       }
     ],
     "settings": {
