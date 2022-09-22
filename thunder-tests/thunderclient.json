@@ -1727,5 +1727,28 @@
       "type": "bearer",
       "bearer": "{{access_token}}"
     }
+  },
+  {
+    "_id": "ac5f69d0-eeb2-4d66-beaa-3d6acf5daaae",
+    "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
+    "containerId": "2cac8485-4bae-49c8-8e9a-1172e5f3fdb3",
+    "name": "hris-sync-all-teacher",
+    "url": "{{url}}/teacher/hris-sync-all-teacher",
+    "method": "POST",
+    "sortNum": 655000,
+    "created": "2022-09-22T17:00:45.360Z",
+    "modified": "2022-09-22T17:02:11.515Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"_firstname\": \"ปาริชาติ\",\n    \"lastname\": \"นิธินันท์ฐากุล\"\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
   }
 ]
