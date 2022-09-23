@@ -1050,16 +1050,19 @@
     "method": "GET",
     "sortNum": 640000,
     "created": "2022-09-19T06:24:35.414Z",
-    "modified": "2022-09-19T06:24:35.414Z",
+    "modified": "2022-09-23T16:40:24.499Z",
     "headers": [],
+    "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"faculty_code\": \"02\",\n    \"name_th\": \"คณะครุศาสตร์อุตสาหกรรม\",\n    \"name_en\": \"FACULTY OF TECHNICAL EDUCATION\"\n}"
+      "raw": "{\n    \"faculty_code\": \"02\",\n    \"name_th\": \"คณะครุศาสตร์อุตสาหกรรม\",\n    \"name_en\": \"FACULTY OF TECHNICAL EDUCATION\"\n}",
+      "form": []
     },
     "auth": {
       "type": "bearer",
       "bearer": "{{access_token}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "f95b7e33-489b-4911-8b66-b0b90e59934a",
@@ -1070,16 +1073,19 @@
     "method": "GET",
     "sortNum": 650000,
     "created": "2022-09-19T06:24:35.415Z",
-    "modified": "2022-09-19T06:24:35.415Z",
+    "modified": "2022-09-23T16:40:15.187Z",
     "headers": [],
+    "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"_firstname\": \"ปาริชาติ\",\n    \"lastname\": \"นิธินันท์ฐากุล\"\n}"
+      "raw": "{\n    \"_firstname\": \"ปาริชาติ\",\n    \"lastname\": \"นิธินันท์ฐากุล\"\n}",
+      "form": []
     },
     "auth": {
       "type": "bearer",
       "bearer": "{{access_token}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "006983f2-baec-42c2-bbe4-55b8b81f40a6",
@@ -1360,21 +1366,24 @@
     "_id": "2c0fc28e-6342-44f7-9e3f-3e676b561c8a",
     "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
     "containerId": "2a65e0fc-a9ba-42c4-b293-0a7239a93707",
-    "name": "login icit",
-    "url": "{{url}}/user/login-icit",
+    "name": "login-icit-account",
+    "url": "{{url}}/user/login-icit-account",
     "method": "POST",
     "sortNum": 810000,
     "created": "2022-09-19T06:24:35.431Z",
-    "modified": "2022-09-19T06:24:35.431Z",
+    "modified": "2022-09-23T16:39:43.470Z",
     "headers": [],
+    "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"username\": \"siwakornlong\",\n    \"_username\": \"s5402041520261\",\n    \"password\": \"12345678\"\n}"
+      "raw": "{\n    \"username\": \"siwakornlong\",\n    \"_username\": \"s5402041520261\",\n    \"password\": \"12345678\"\n}",
+      "form": []
     },
     "auth": {
       "type": "bearer",
       "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjE3NDk2MDYsInVzZXJfbmFtZSI6ImJpb3RlY2giLCJhdXRob3JpdGllcyI6WyJST0xFX0FETUlOIl0sImp0aSI6IjEyZWFhYzYwLTdiNTgtNGFkMi05YTk4LTA0Y2RjZjQ0MjQ1OSIsImNsaWVudF9pZCI6InplYWx0ZWNoIiwic2NvcGUiOlsicmVhZCIsIndyaXRlIiwidHJ1c3QiXX0.f9gqUPMdLNB7WHIw6kLTh2WFOHnedjFa4XwNvE-tNMI"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "f9324334-99b5-419d-99a2-e0528581094b",
@@ -1737,14 +1746,9 @@
     "method": "POST",
     "sortNum": 655000,
     "created": "2022-09-22T17:00:45.360Z",
-    "modified": "2022-09-22T17:02:11.515Z",
+    "modified": "2022-09-23T16:40:05.240Z",
     "headers": [],
     "params": [],
-    "body": {
-      "type": "json",
-      "raw": "{\n    \"_firstname\": \"ปาริชาติ\",\n    \"lastname\": \"นิธินันท์ฐากุล\"\n}",
-      "form": []
-    },
     "auth": {
       "type": "bearer",
       "bearer": "{{access_token}}"
