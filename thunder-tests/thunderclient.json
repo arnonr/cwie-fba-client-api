@@ -1371,7 +1371,7 @@
     "method": "POST",
     "sortNum": 810000,
     "created": "2022-09-19T06:24:35.431Z",
-    "modified": "2022-09-23T16:39:43.470Z",
+    "modified": "2022-10-11T15:38:46.115Z",
     "headers": [],
     "params": [],
     "body": {
@@ -1765,6 +1765,29 @@
     "sortNum": 815000,
     "created": "2022-10-11T14:27:03.306Z",
     "modified": "2022-10-11T15:05:23.821Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2LCJ1c2VybmFtZSI6InNpd2Frb3JubG9uZyIsImV4cCI6MTY2NjM2Mzk4MSwiaWF0IjoxNjY1NDk5OTgxfQ.6K_92bJzDbLU-w9HWRWfAODrU-OcL2RUzMNf5VFCRIw\"\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjE3NDk2MDYsInVzZXJfbmFtZSI6ImJpb3RlY2giLCJhdXRob3JpdGllcyI6WyJST0xFX0FETUlOIl0sImp0aSI6IjEyZWFhYzYwLTdiNTgtNGFkMi05YTk4LTA0Y2RjZjQ0MjQ1OSIsImNsaWVudF9pZCI6InplYWx0ZWNoIiwic2NvcGUiOlsicmVhZCIsIndyaXRlIiwidHJ1c3QiXX0.f9gqUPMdLNB7WHIw6kLTh2WFOHnedjFa4XwNvE-tNMI"
+    },
+    "tests": []
+  },
+  {
+    "_id": "838d6774-f5e0-4236-8855-9bcd1e5188d3",
+    "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
+    "containerId": "2a65e0fc-a9ba-42c4-b293-0a7239a93707",
+    "name": "refresh-token",
+    "url": "{{url}}/user/refresh-token",
+    "method": "POST",
+    "sortNum": 817500,
+    "created": "2022-10-12T15:44:52.292Z",
+    "modified": "2022-10-12T15:45:13.140Z",
     "headers": [],
     "params": [],
     "body": {
