@@ -24,16 +24,19 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-09-19T06:24:35.351Z",
-    "modified": "2022-09-19T06:24:35.351Z",
+    "modified": "2022-10-14T15:07:10.218Z",
     "headers": [],
+    "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"name\": \"แผนที่สหกิจ\",\n    \"description\": \"ddd\"\n}"
+      "raw": "{\n    \"name\": \"แผนที่สหกิจ\",\n    \"description\": \"ddd\"\n}",
+      "form": []
     },
     "auth": {
       "type": "bearer",
       "bearer": "{{access_token}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "4d80e2ae-8c6f-45fd-b2ec-2afca779da82",
@@ -44,16 +47,19 @@
     "method": "PUT",
     "sortNum": 30000,
     "created": "2022-09-19T06:24:35.352Z",
-    "modified": "2022-09-19T06:24:35.352Z",
+    "modified": "2022-10-14T17:36:17.718Z",
     "headers": [],
+    "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"name\": \"แผนที่สหกิจ2\",\n    \"description\": \"ddd\"\n}"
+      "raw": "{\n    \"name\": \"แผนที่สหกิจ2\",\n    \"description\": \"ddd\"\n}",
+      "form": []
     },
     "auth": {
       "type": "bearer",
-      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFybm9uciIsImV4cCI6MTY2MzA4ODUwMSwiaWF0IjoxNjYyMjI0NTAxfQ.5IWHv8Fsnz1xThKT3wX1r7VR_IO4H0E-xEZpUXqaaZ4"
-    }
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
   },
   {
     "_id": "667eb993-2867-427d-81c0-1ccaddcb577e",
@@ -312,36 +318,42 @@
     "method": "POST",
     "sortNum": 180000,
     "created": "2022-09-19T06:24:35.367Z",
-    "modified": "2022-09-19T06:24:35.367Z",
+    "modified": "2022-10-14T17:19:14.777Z",
     "headers": [],
+    "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"faculty_code\": \"14\",\n    \"name_th\": \"คณะบริหารธุรกิจ\",\n    \"name_en\": \"FACULTY OF BUSINESS ADMINISTRATION\"\n}"
+      "raw": "{\n    \"faculty_code\": \"14\",\n    \"name_th\": \"คณะบริหารธุรกิจ\",\n    \"name_en\": \"FACULTY OF BUSINESS ADMINISTRATION\"\n}",
+      "form": []
     },
     "auth": {
       "type": "bearer",
       "bearer": "{{access_token}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "9d50cf4c-dc67-4658-b300-b3f8b732e685",
     "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
     "containerId": "1df98589-7b6b-483a-8253-214fadecc8a7",
     "name": "update",
-    "url": "{{url}}/faculty/1",
+    "url": "{{url}}/faculty/31",
     "method": "PUT",
     "sortNum": 190000,
     "created": "2022-09-19T06:24:35.368Z",
-    "modified": "2022-09-19T06:24:35.368Z",
+    "modified": "2022-10-14T17:20:06.891Z",
     "headers": [],
+    "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"name_th\": \"คณะวิศวกรรมศาสตร์\",\n    \"name_en\": \"FACULTY OF ENGINEERING\",\n    \"tel\" : \"025552000\"\n}"
+      "raw": "{\n    \"faculty_code\": \"15\",\n    \"name_th\": \"คณะบริหารธุรกิจ\",\n    \"name_en\": \"FACULTY OF BUSINESS ADMINISTRATION\"\n}",
+      "form": []
     },
     "auth": {
       "type": "bearer",
-      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFybm9uciIsImV4cCI6MTY2MzA4ODUwMSwiaWF0IjoxNjYyMjI0NTAxfQ.5IWHv8Fsnz1xThKT3wX1r7VR_IO4H0E-xEZpUXqaaZ4"
-    }
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
   },
   {
     "_id": "d48184c5-6940-4411-b6c1-d83e97a5b616",
@@ -400,16 +412,19 @@
     "method": "POST",
     "sortNum": 230000,
     "created": "2022-09-19T06:24:35.372Z",
-    "modified": "2022-09-19T06:24:35.372Z",
+    "modified": "2022-10-14T15:05:58.073Z",
     "headers": [],
+    "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"faculty_id\": \"1\",\n    \"department_code\": \"1406\",\n    \"name_th\": \"สาขาวิชาศึกษาทั่วไป\",\n    \"name_en\": \"สาขาวิชาศึกษาทั่วไป\"\n}"
+      "raw": "{\n    \"faculty_id\": \"14\",\n    \"department_code\": \"1406\",\n    \"name_th\": \"สาขาวิชาศึกษาทั่วไป\",\n    \"name_en\": \"สาขาวิชาศึกษาทั่วไป\"\n}",
+      "form": []
     },
     "auth": {
       "type": "bearer",
       "bearer": "{{access_token}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "0ae844d9-82a1-4743-bb45-0af8c521022e",
@@ -560,16 +575,19 @@
     "method": "POST",
     "sortNum": 370000,
     "created": "2022-09-19T06:24:35.386Z",
-    "modified": "2022-09-19T06:24:35.386Z",
+    "modified": "2022-10-14T15:13:35.892Z",
     "headers": [],
+    "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"faculty_code\": \"02\",\n    \"name_th\": \"คณะครุศาสตร์อุตสาหกรรม\",\n    \"name_en\": \"FACULTY OF TECHNICAL EDUCATION\"\n}"
+      "raw": "{\n    \"major_code\": \"14\",\n    \"department_id\":9,\n    \"name_th\": \"สาขาทดสอบ\",\n    \"name_en\": \"major test\"\n}",
+      "form": []
     },
     "auth": {
       "type": "bearer",
       "bearer": "{{access_token}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "ef1e922f-a4f8-4dd3-a87a-716488723e8a",
@@ -1462,36 +1480,36 @@
     "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
     "containerId": "2a65e0fc-a9ba-42c4-b293-0a7239a93707",
     "name": "get-icit-account",
-    "url": "{{url}}/user/get-icit-account/siwakornl",
+    "url": "{{url}}/user/get-icit-account/arnonr",
     "method": "GET",
     "sortNum": 860000,
     "created": "2022-09-19T06:24:35.436Z",
-    "modified": "2022-09-19T06:24:35.436Z",
+    "modified": "2022-10-14T17:45:47.532Z",
     "headers": [],
+    "params": [],
     "auth": {
       "type": "bearer",
       "bearer": "{{access_token}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "fbf8fcc1-a044-45e8-adec-775d519cc1f0",
     "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
     "containerId": "2a65e0fc-a9ba-42c4-b293-0a7239a93707",
     "name": "import-icit-account",
-    "url": "{{url}}/user/import-icit-account/siwakornlong",
+    "url": "{{url}}/user/import-icit-account/arnonr",
     "method": "POST",
     "sortNum": 870000,
     "created": "2022-09-19T06:24:35.437Z",
-    "modified": "2022-09-19T06:24:35.437Z",
+    "modified": "2022-10-14T17:45:56.657Z",
     "headers": [],
-    "body": {
-      "type": "json",
-      "raw": "{\r\n    \"username\": \"arnonr\"\r\n}"
-    },
+    "params": [],
     "auth": {
       "type": "bearer",
       "bearer": "{{access_token}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "f44f02ba-0604-4eb9-9865-548e1d008e9c",
