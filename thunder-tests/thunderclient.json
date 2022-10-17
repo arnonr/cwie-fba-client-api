@@ -1818,5 +1818,85 @@
       "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjE3NDk2MDYsInVzZXJfbmFtZSI6ImJpb3RlY2giLCJhdXRob3JpdGllcyI6WyJST0xFX0FETUlOIl0sImp0aSI6IjEyZWFhYzYwLTdiNTgtNGFkMi05YTk4LTA0Y2RjZjQ0MjQ1OSIsImNsaWVudF9pZCI6InplYWx0ZWNoIiwic2NvcGUiOlsicmVhZCIsIndyaXRlIiwidHJ1c3QiXX0.f9gqUPMdLNB7WHIw6kLTh2WFOHnedjFa4XwNvE-tNMI"
     },
     "tests": []
+  },
+  {
+    "_id": "106ada59-9bb1-48f7-a00e-0a9bff780346",
+    "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
+    "containerId": "f128e68f-e8f1-4e7e-8479-74e592e7b04a",
+    "name": "getAll",
+    "url": "{{url}}/prefix-name",
+    "method": "GET",
+    "sortNum": 400000,
+    "created": "2022-10-17T16:27:47.872Z",
+    "modified": "2022-10-17T16:28:11.368Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "2c0842a1-f5b3-4c16-8e7c-392ace66f9f7",
+    "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
+    "containerId": "f128e68f-e8f1-4e7e-8479-74e592e7b04a",
+    "name": "insert",
+    "url": "{{url}}/prefix-name",
+    "method": "POST",
+    "sortNum": 410000,
+    "created": "2022-10-17T16:27:47.873Z",
+    "modified": "2022-10-17T16:29:00.504Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"prefix_id\": \"01\",\n    \"prefix_name\": \"นาย\"\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "12a26c61-1b4b-43e7-8ad3-7e7ce7c2a8e7",
+    "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
+    "containerId": "f128e68f-e8f1-4e7e-8479-74e592e7b04a",
+    "name": "update",
+    "url": "{{url}}/prefix-name/01",
+    "method": "PUT",
+    "sortNum": 420000,
+    "created": "2022-10-17T16:27:47.874Z",
+    "modified": "2022-10-17T16:29:53.502Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"prefix_id\": \"01\",\n    \"prefix_name\": \"นาย\"\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "7ef49e20-bd4b-4250-b8ef-2d4db098c758",
+    "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
+    "containerId": "f128e68f-e8f1-4e7e-8479-74e592e7b04a",
+    "name": "delete",
+    "url": "{{url}}/province/1",
+    "method": "DELETE",
+    "sortNum": 430000,
+    "created": "2022-10-17T16:27:47.875Z",
+    "modified": "2022-10-17T16:27:47.872Z",
+    "headers": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    }
   }
 ]
