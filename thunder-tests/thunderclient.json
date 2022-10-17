@@ -1087,18 +1087,31 @@
     "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
     "containerId": "2cac8485-4bae-49c8-8e9a-1172e5f3fdb3",
     "name": "hris-find-personnel",
-    "url": "{{url}}/teacher/hris-find-personnel",
+    "url": "{{url}}/teacher/hris-find-personnel?firstname=ปาริชาติ",
     "method": "GET",
     "sortNum": 650000,
     "created": "2022-09-19T06:24:35.415Z",
-    "modified": "2022-09-23T16:40:15.187Z",
+    "modified": "2022-10-17T17:00:55.965Z",
     "headers": [],
-    "params": [],
-    "body": {
-      "type": "json",
-      "raw": "{\n    \"_firstname\": \"ปาริชาติ\",\n    \"lastname\": \"นิธินันท์ฐากุล\"\n}",
-      "form": []
-    },
+    "params": [
+      {
+        "name": "firstname",
+        "value": "นัทธ์หทัย",
+        "isDisabled": true,
+        "isPath": false
+      },
+      {
+        "name": "surname",
+        "value": "รัตนบุรี",
+        "isDisabled": true,
+        "isPath": false
+      },
+      {
+        "name": "firstname",
+        "value": "ปาริชาติ",
+        "isPath": false
+      }
+    ],
     "auth": {
       "type": "bearer",
       "bearer": "{{access_token}}"
