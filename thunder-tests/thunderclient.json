@@ -170,40 +170,69 @@
     "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
     "containerId": "d542abc5-0d5b-44aa-9f12-20349ea6ff18",
     "name": "insert",
-    "url": "http://localhost:8084/api/v1/company",
+    "url": "{{url}}/company",
     "method": "POST",
     "sortNum": 100000,
     "created": "2022-09-19T06:24:35.359Z",
-    "modified": "2022-09-19T06:24:35.359Z",
+    "modified": "2022-10-19T17:18:32.396Z",
     "headers": [],
+    "params": [],
     "body": {
-      "type": "json",
-      "raw": "{\n    \"name\": \"แผนที่สหกิจ\",\n    \"description\": \"ddd\"\n}"
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "name_th",
+          "value": "ทดสอบ"
+        }
+      ],
+      "files": [
+        {
+          "name": "file_upload",
+          "value": "c:\\Users\\siwakornl\\Downloads\\พัลลภ  พิริยะสุรวงศ์.JPG",
+          "isDisabled": true
+        }
+      ]
     },
     "auth": {
       "type": "bearer",
       "bearer": "{{access_token}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "9ec199cc-f42c-49ab-9754-ef8ae554861f",
     "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
     "containerId": "d542abc5-0d5b-44aa-9f12-20349ea6ff18",
     "name": "update",
-    "url": "http://localhost:8084/api/v1/company/2",
+    "url": "{{url}}/company/30",
     "method": "PUT",
     "sortNum": 110000,
     "created": "2022-09-19T06:24:35.360Z",
-    "modified": "2022-09-19T06:24:35.360Z",
+    "modified": "2022-10-19T17:19:54.995Z",
     "headers": [],
+    "params": [],
     "body": {
-      "type": "json",
-      "raw": "{\n    \"name\": \"แผนที่สหกิจ2\",\n    \"description\": \"ddd\"\n}"
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "name_th",
+          "value": "แก้ไข 30"
+        }
+      ],
+      "files": [
+        {
+          "name": "file_upload",
+          "value": "c:\\Users\\siwakornl\\Downloads\\SXHoMikQuW17492326_1343352072377062_1596622752805165285_o_01.jpg"
+        }
+      ]
     },
     "auth": {
       "type": "bearer",
-      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFybm9uciIsImV4cCI6MTY2MzA4ODUwMSwiaWF0IjoxNjYyMjI0NTAxfQ.5IWHv8Fsnz1xThKT3wX1r7VR_IO4H0E-xEZpUXqaaZ4"
-    }
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
   },
   {
     "_id": "5a4a1300-96fe-45e0-b60f-47473068b032",
