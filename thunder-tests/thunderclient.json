@@ -209,7 +209,7 @@
     "method": "PUT",
     "sortNum": 110000,
     "created": "2022-09-19T06:24:35.360Z",
-    "modified": "2022-10-19T17:19:54.995Z",
+    "modified": "2022-10-20T15:12:40.241Z",
     "headers": [],
     "params": [],
     "body": {
@@ -223,8 +223,8 @@
       ],
       "files": [
         {
-          "name": "file_upload",
-          "value": "c:\\Users\\siwakornl\\Downloads\\SXHoMikQuW17492326_1343352072377062_1596622752805165285_o_01.jpg"
+          "name": "namecard_upload",
+          "value": "c:\\Users\\siwakornl\\Downloads\\ประกาศผลการเลือกสรรบุคลากรผู้สมควรดำรงต.pdf"
         }
       ]
     },
@@ -1077,16 +1077,50 @@
     "method": "POST",
     "sortNum": 630000,
     "created": "2022-09-19T06:24:35.413Z",
-    "modified": "2022-09-19T06:24:35.413Z",
+    "modified": "2022-10-20T16:06:49.612Z",
     "headers": [],
+    "params": [],
     "body": {
-      "type": "json",
-      "raw": "{\n    \"faculty_code\": \"02\",\n    \"name_th\": \"คณะครุศาสตร์อุตสาหกรรม\",\n    \"name_en\": \"FACULTY OF TECHNICAL EDUCATION\"\n}"
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "prefix",
+          "value": "นาย"
+        },
+        {
+          "name": "firstname",
+          "value": "ศิวกร"
+        },
+        {
+          "name": "surname",
+          "value": "หลงสมบูรณ์"
+        },
+        {
+          "name": "citizen_id",
+          "value": "12345678"
+        },
+        {
+          "name": "faculty_id",
+          "value": "31"
+        },
+        {
+          "name": "department_id",
+          "value": "10"
+        }
+      ],
+      "files": [
+        {
+          "name": "signature_upload",
+          "value": "c:\\Users\\siwakornl\\Downloads\\ประกาศผลการเลือกสรรบุคลากรผู้สมควรดำรงต.pdf"
+        }
+      ]
     },
     "auth": {
       "type": "bearer",
       "bearer": "{{access_token}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "bd012f62-5c72-4051-9e1b-2934991bf4de",
@@ -1152,20 +1186,29 @@
     "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
     "containerId": "2cac8485-4bae-49c8-8e9a-1172e5f3fdb3",
     "name": "update",
-    "url": "{{url}}/teacher/1",
+    "url": "{{url}}/teacher/159",
     "method": "PUT",
     "sortNum": 660000,
     "created": "2022-09-19T06:24:35.416Z",
-    "modified": "2022-09-19T06:24:35.416Z",
+    "modified": "2022-10-20T15:54:38.921Z",
     "headers": [],
+    "params": [],
     "body": {
-      "type": "json",
-      "raw": "{\n    \"name\": \"แผนที่สหกิจ2\",\n    \"description\": \"ddd\"\n}"
+      "type": "formdata",
+      "raw": "",
+      "form": [],
+      "files": [
+        {
+          "name": "signature_upload",
+          "value": "c:\\Users\\siwakornl\\Downloads\\Capture.JPG"
+        }
+      ]
     },
     "auth": {
       "type": "bearer",
-      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFybm9uciIsImV4cCI6MTY2MzA4ODUwMSwiaWF0IjoxNjYyMjI0NTAxfQ.5IWHv8Fsnz1xThKT3wX1r7VR_IO4H0E-xEZpUXqaaZ4"
-    }
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
   },
   {
     "_id": "dca593ae-a01f-4010-93e2-440e2fd181e8",
