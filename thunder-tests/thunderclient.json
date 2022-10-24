@@ -174,7 +174,7 @@
     "method": "POST",
     "sortNum": 100000,
     "created": "2022-09-19T06:24:35.359Z",
-    "modified": "2022-10-19T17:18:32.396Z",
+    "modified": "2022-10-24T16:42:48.371Z",
     "headers": [],
     "params": [],
     "body": {
@@ -188,9 +188,8 @@
       ],
       "files": [
         {
-          "name": "file_upload",
-          "value": "c:\\Users\\siwakornl\\Downloads\\พัลลภ  พิริยะสุรวงศ์.JPG",
-          "isDisabled": true
+          "name": "namecard_file_upload",
+          "value": "c:\\Users\\siwakornl\\Downloads\\พัลลภ  พิริยะสุรวงศ์.JPG"
         }
       ]
     },
@@ -209,7 +208,7 @@
     "method": "PUT",
     "sortNum": 110000,
     "created": "2022-09-19T06:24:35.360Z",
-    "modified": "2022-10-20T15:12:40.241Z",
+    "modified": "2022-10-24T16:42:12.213Z",
     "headers": [],
     "params": [],
     "body": {
@@ -223,8 +222,8 @@
       ],
       "files": [
         {
-          "name": "namecard_upload",
-          "value": "c:\\Users\\siwakornl\\Downloads\\ประกาศผลการเลือกสรรบุคลากรผู้สมควรดำรงต.pdf"
+          "name": "namecard_file_upload",
+          "value": "c:\\Users\\siwakornl\\Downloads\\พัลลภ  พิริยะสุรวงศ์.JPG"
         }
       ]
     },
@@ -532,36 +531,103 @@
     "method": "POST",
     "sortNum": 280000,
     "created": "2022-09-19T06:24:35.377Z",
-    "modified": "2022-09-19T06:24:35.377Z",
+    "modified": "2022-10-24T16:45:04.150Z",
     "headers": [],
+    "params": [],
     "body": {
-      "type": "json",
-      "raw": "{\n    \"faculty_id\": \"1\",\n    \"department_code\": \"1\",\n    \"name_th\": \"คณะครุศาสตร์อุตสาหกรรม\",\n    \"name_en\": \"FACULTY OF TECHNICAL EDUCATION\"\n}"
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "semester_id",
+          "value": "1"
+        },
+        {
+          "name": "student_id",
+          "value": "2"
+        },
+        {
+          "name": "company_id",
+          "value": "1"
+        },
+        {
+          "name": "status_id",
+          "value": "1"
+        },
+        {
+          "name": "start_date",
+          "value": "2022-01-01"
+        },
+        {
+          "name": "end_date",
+          "value": "2022-06-01"
+        },
+        {
+          "name": "co_name",
+          "value": "ศิวกร"
+        },
+        {
+          "name": "co_position",
+          "value": "manager"
+        }
+      ],
+      "files": [
+        {
+          "name": "response_document_file_upload",
+          "value": "c:\\Users\\siwakornl\\Downloads\\ประกาศรายชื่อผู้สมัครเข้ารับการประเมินฯ .pdf"
+        },
+        {
+          "name": "workplace_googlemap_file_upload",
+          "value": "c:\\Users\\siwakornl\\Downloads\\ประกาศรายชื่อผู้สมัครเข้ารับการประเมินฯ.pdf"
+        },
+        {
+          "name": "plan_document_file_upload",
+          "value": "c:\\Users\\siwakornl\\Downloads\\ประกาศผลการเลือกสรรบุคลากรผู้สมควรดำรงต.pdf"
+        }
+      ]
     },
     "auth": {
       "type": "bearer",
       "bearer": "{{access_token}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "4ea03266-8d73-4e0f-8d9f-ac36e8ca9770",
     "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
     "containerId": "f2da955b-4289-44d0-bdf0-cd2a53c6b9e5",
     "name": "update",
-    "url": "{{url}}/form/1",
+    "url": "{{url}}/form/6",
     "method": "PUT",
     "sortNum": 290000,
     "created": "2022-09-19T06:24:35.378Z",
-    "modified": "2022-09-19T06:24:35.378Z",
+    "modified": "2022-10-24T16:44:20.945Z",
     "headers": [],
+    "params": [],
     "body": {
-      "type": "json",
-      "raw": "{\n    \"name\": \"แผนที่สหกิจ2\",\n    \"description\": \"ddd\"\n}"
+      "type": "formdata",
+      "raw": "",
+      "form": [],
+      "files": [
+        {
+          "name": "response_document_file_upload",
+          "value": "c:\\Users\\siwakornl\\Downloads\\ประกาศผลการเลือกสรรบุคลากรผู้สมควรดำรงต.pdf"
+        },
+        {
+          "name": "workplace_googlemap_file_upload",
+          "value": "c:\\Users\\siwakornl\\Downloads\\รักษาการ ผอ. กองส่งเสริมวิชาการ.pdf"
+        },
+        {
+          "name": "plan_document_file_upload",
+          "value": "c:\\Users\\siwakornl\\Downloads\\ประกาศรายชื่อผู้สมัครเข้ารับการประเมินฯ .pdf"
+        }
+      ]
     },
     "auth": {
       "type": "bearer",
-      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFybm9uciIsImV4cCI6MTY2MzA4ODUwMSwiaWF0IjoxNjYyMjI0NTAxfQ.5IWHv8Fsnz1xThKT3wX1r7VR_IO4H0E-xEZpUXqaaZ4"
-    }
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
   },
   {
     "_id": "d3b80ec6-00d8-4dd3-8712-ac451b143711",
@@ -823,16 +889,19 @@
     "method": "POST",
     "sortNum": 490000,
     "created": "2022-09-19T06:24:35.399Z",
-    "modified": "2022-09-19T06:24:35.399Z",
+    "modified": "2022-10-24T15:30:55.689Z",
     "headers": [],
+    "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"faculty_code\": \"02\",\n    \"name_th\": \"คณะครุศาสตร์อุตสาหกรรม\",\n    \"name_en\": \"FACULTY OF TECHNICAL EDUCATION\"\n}"
+      "raw": "{\n    \"semester_year\": \"2565\",\n    \"term\": \"1\",\n    \"round_no\": \"1\",\n    \"regis_start_date\": \"2022-10-24\",\n    \"regis_end_date\":  \"2022-12-24\"\n}",
+      "form": []
     },
     "auth": {
       "type": "bearer",
       "bearer": "{{access_token}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "c2f2f8da-47ab-4a58-b7e6-062f98ecd9bb",
@@ -1005,16 +1074,34 @@
     "method": "POST",
     "sortNum": 590000,
     "created": "2022-09-19T06:24:35.409Z",
-    "modified": "2022-09-19T06:24:35.409Z",
+    "modified": "2022-10-24T16:50:10.016Z",
     "headers": [],
+    "params": [],
     "body": {
-      "type": "json",
-      "raw": "{\n    \"faculty_code\": \"02\",\n    \"name_th\": \"คณะครุศาสตร์อุตสาหกรรม\",\n    \"name_en\": \"FACULTY OF TECHNICAL EDUCATION\"\n}"
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "student_id",
+          "value": "2"
+        },
+        {
+          "name": "document_type_id",
+          "value": "1"
+        }
+      ],
+      "files": [
+        {
+          "name": "document_file_upload",
+          "value": "c:\\Users\\siwakornl\\Downloads\\ประกาศรายชื่อผู้สมัครเข้ารับการประเมินฯ.pdf"
+        }
+      ]
     },
     "auth": {
       "type": "bearer",
       "bearer": "{{access_token}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "8da8a508-9461-4d9f-b97d-2e8329ab3864",
@@ -1025,16 +1112,25 @@
     "method": "PUT",
     "sortNum": 600000,
     "created": "2022-09-19T06:24:35.410Z",
-    "modified": "2022-09-19T06:24:35.410Z",
+    "modified": "2022-10-24T16:50:52.719Z",
     "headers": [],
+    "params": [],
     "body": {
-      "type": "json",
-      "raw": "{\n    \"name\": \"แผนที่สหกิจ2\",\n    \"description\": \"ddd\"\n}"
+      "type": "formdata",
+      "raw": "",
+      "form": [],
+      "files": [
+        {
+          "name": "document_file_upload",
+          "value": "c:\\Users\\siwakornl\\Downloads\\ประกาศรายชื่อผู้สมัครเข้ารับการประเมินฯ .pdf"
+        }
+      ]
     },
     "auth": {
       "type": "bearer",
-      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFybm9uciIsImV4cCI6MTY2MzA4ODUwMSwiaWF0IjoxNjYyMjI0NTAxfQ.5IWHv8Fsnz1xThKT3wX1r7VR_IO4H0E-xEZpUXqaaZ4"
-    }
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
   },
   {
     "_id": "81ac8f73-64d7-465b-90a4-b8f7e75f0504",
@@ -1077,7 +1173,7 @@
     "method": "POST",
     "sortNum": 630000,
     "created": "2022-09-19T06:24:35.413Z",
-    "modified": "2022-10-20T16:06:49.612Z",
+    "modified": "2022-10-24T16:40:24.951Z",
     "headers": [],
     "params": [],
     "body": {
@@ -1111,8 +1207,8 @@
       ],
       "files": [
         {
-          "name": "signature_upload",
-          "value": "c:\\Users\\siwakornl\\Downloads\\ประกาศผลการเลือกสรรบุคลากรผู้สมควรดำรงต.pdf"
+          "name": "signature_file_upload",
+          "value": "c:\\Users\\siwakornl\\Downloads\\Capture.JPG"
         }
       ]
     },
@@ -1190,7 +1286,7 @@
     "method": "PUT",
     "sortNum": 660000,
     "created": "2022-09-19T06:24:35.416Z",
-    "modified": "2022-10-20T15:54:38.921Z",
+    "modified": "2022-10-24T16:40:02.307Z",
     "headers": [],
     "params": [],
     "body": {
@@ -1199,7 +1295,7 @@
       "form": [],
       "files": [
         {
-          "name": "signature_upload",
+          "name": "signature_file_upload",
           "value": "c:\\Users\\siwakornl\\Downloads\\Capture.JPG"
         }
       ]
@@ -1251,16 +1347,30 @@
     "method": "POST",
     "sortNum": 690000,
     "created": "2022-09-19T06:24:35.419Z",
-    "modified": "2022-09-19T06:24:35.419Z",
+    "modified": "2022-10-24T16:55:50.489Z",
     "headers": [],
+    "params": [],
     "body": {
-      "type": "json",
-      "raw": "{\n    \"faculty_code\": \"02\",\n    \"name_th\": \"คณะครุศาสตร์อุตสาหกรรม\",\n    \"name_en\": \"FACULTY OF TECHNICAL EDUCATION\"\n}"
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "visit_id",
+          "value": "1"
+        }
+      ],
+      "files": [
+        {
+          "name": "image_file_upload",
+          "value": "c:\\Users\\siwakornl\\Downloads\\ประกาศรายชื่อผู้สมัครเข้ารับการประเมินฯ.pdf"
+        }
+      ]
     },
     "auth": {
       "type": "bearer",
       "bearer": "{{access_token}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "21aa6212-fa1f-43c5-9146-55354ce628fb",
@@ -1271,16 +1381,25 @@
     "method": "PUT",
     "sortNum": 700000,
     "created": "2022-09-19T06:24:35.420Z",
-    "modified": "2022-09-19T06:24:35.420Z",
+    "modified": "2022-10-24T16:56:14.860Z",
     "headers": [],
+    "params": [],
     "body": {
-      "type": "json",
-      "raw": "{\n    \"name\": \"แผนที่สหกิจ2\",\n    \"description\": \"ddd\"\n}"
+      "type": "formdata",
+      "raw": "",
+      "form": [],
+      "files": [
+        {
+          "name": "image_file_upload",
+          "value": "c:\\Users\\siwakornl\\Downloads\\ประกาศรายชื่อผู้สมัครเข้ารับการประเมินฯ .pdf"
+        }
+      ]
     },
     "auth": {
       "type": "bearer",
-      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFybm9uciIsImV4cCI6MTY2MzA4ODUwMSwiaWF0IjoxNjYyMjI0NTAxfQ.5IWHv8Fsnz1xThKT3wX1r7VR_IO4H0E-xEZpUXqaaZ4"
-    }
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
   },
   {
     "_id": "ccce55de-9d4d-4535-a9bf-1b0aa65a1844",
@@ -1379,16 +1498,58 @@
     "method": "POST",
     "sortNum": 760000,
     "created": "2022-09-19T06:24:35.426Z",
-    "modified": "2022-09-19T06:24:35.426Z",
+    "modified": "2022-10-24T16:53:55.855Z",
     "headers": [],
+    "params": [],
     "body": {
-      "type": "json",
-      "raw": "{\n    \"faculty_code\": \"02\",\n    \"name_th\": \"คณะครุศาสตร์อุตสาหกรรม\",\n    \"name_en\": \"FACULTY OF TECHNICAL EDUCATION\"\n}"
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "form_id",
+          "value": "6"
+        },
+        {
+          "name": "supervision_id",
+          "value": "161"
+        },
+        {
+          "name": "visit_date",
+          "value": "2022-10-24"
+        },
+        {
+          "name": "visit_time",
+          "value": "23:22"
+        },
+        {
+          "name": "co_name",
+          "value": "ศิวกร"
+        },
+        {
+          "name": "co_position",
+          "value": "Manager"
+        },
+        {
+          "name": "visit_type",
+          "value": "onsite"
+        }
+      ],
+      "files": [
+        {
+          "name": "googlemap_file_upload",
+          "value": "c:\\Users\\siwakornl\\Downloads\\ประกาศรายชื่อผู้สมัครเข้ารับการประเมินฯ .pdf"
+        },
+        {
+          "name": "report_file_upload",
+          "value": "c:\\Users\\siwakornl\\Downloads\\ประกาศรายชื่อผู้สมัครเข้ารับการประเมินฯ.pdf"
+        }
+      ]
     },
     "auth": {
       "type": "bearer",
       "bearer": "{{access_token}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "24bb7fd8-f429-4ba4-9f28-bc3af3dcd78f",
@@ -1399,16 +1560,29 @@
     "method": "PUT",
     "sortNum": 770000,
     "created": "2022-09-19T06:24:35.427Z",
-    "modified": "2022-09-19T06:24:35.427Z",
+    "modified": "2022-10-24T16:53:05.162Z",
     "headers": [],
+    "params": [],
     "body": {
-      "type": "json",
-      "raw": "{\n    \"name\": \"แผนที่สหกิจ2\",\n    \"description\": \"ddd\"\n}"
+      "type": "formdata",
+      "raw": "",
+      "form": [],
+      "files": [
+        {
+          "name": "googlemap_file_upload",
+          "value": "c:\\Users\\siwakornl\\Downloads\\ประกาศรายชื่อผู้สมัครเข้ารับการประเมินฯ .pdf"
+        },
+        {
+          "name": "report_file_upload",
+          "value": "c:\\Users\\siwakornl\\Downloads\\ประกาศรายชื่อผู้สมัครเข้ารับการประเมินฯ.pdf"
+        }
+      ]
     },
     "auth": {
       "type": "bearer",
-      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFybm9uciIsImV4cCI6MTY2MzA4ODUwMSwiaWF0IjoxNjYyMjI0NTAxfQ.5IWHv8Fsnz1xThKT3wX1r7VR_IO4H0E-xEZpUXqaaZ4"
-    }
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
   },
   {
     "_id": "3d8fd408-b6ba-4b9d-b05d-63f991a27f7e",
@@ -1623,13 +1797,32 @@
     "method": "POST",
     "sortNum": 410000,
     "created": "2022-09-19T07:38:10.266Z",
-    "modified": "2022-09-21T16:43:52.373Z",
+    "modified": "2022-10-24T16:37:57.399Z",
     "headers": [],
     "params": [],
     "body": {
-      "type": "json",
-      "raw": "{\n    \"news_title\": \"ทดสอบข่าว\",\n    \"news_detail\": \"ทดสอบรายละเอียดข่าว\",\n    \"news_cate_id\":1\n}",
-      "form": []
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "news_title",
+          "value": "ทดสอบข่าว"
+        },
+        {
+          "name": "news_detail",
+          "value": "ทดสอบรายละเอียด"
+        },
+        {
+          "name": "news_cate_id",
+          "value": "1"
+        }
+      ],
+      "files": [
+        {
+          "name": "news_file_upload",
+          "value": "c:\\Users\\siwakornl\\Downloads\\ประกาศรายชื่อผู้สมัครเข้ารับการประเมินฯ.pdf"
+        }
+      ]
     },
     "auth": {
       "type": "bearer",
@@ -1646,13 +1839,19 @@
     "method": "PUT",
     "sortNum": 420000,
     "created": "2022-09-19T07:38:10.267Z",
-    "modified": "2022-09-21T16:44:22.019Z",
+    "modified": "2022-10-24T16:34:45.432Z",
     "headers": [],
     "params": [],
     "body": {
-      "type": "json",
-      "raw": "{\n    \"news_title\": \"ทดสอบข่าว\",\n    \"news_detail\": \"ทดสอบรายละเอียดข่าว\",\n    \"news_cate_id\":1\n}",
-      "form": []
+      "type": "formdata",
+      "raw": "",
+      "form": [],
+      "files": [
+        {
+          "name": "news_file_upload",
+          "value": "c:\\Users\\siwakornl\\Downloads\\ประกาศรายชื่อผู้สมัครเข้ารับการประเมินฯ .pdf"
+        }
+      ]
     },
     "auth": {
       "type": "bearer",
