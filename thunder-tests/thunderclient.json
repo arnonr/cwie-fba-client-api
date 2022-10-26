@@ -650,16 +650,18 @@
     "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
     "containerId": "f146a62a-74ab-44ba-a899-b6a52d30956d",
     "name": "getAll",
-    "url": "{{url}}/faculty",
+    "url": "{{url}}/major",
     "method": "GET",
     "sortNum": 360000,
     "created": "2022-09-19T06:24:35.385Z",
-    "modified": "2022-09-19T06:24:35.385Z",
+    "modified": "2022-10-26T15:23:25.755Z",
     "headers": [],
+    "params": [],
     "auth": {
       "type": "bearer",
       "bearer": "{{access_token}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "6a03ce35-df78-49db-be3d-cd21a7a83c20",
@@ -2177,6 +2179,86 @@
     "sortNum": 430000,
     "created": "2022-10-17T16:27:47.875Z",
     "modified": "2022-10-17T16:27:47.872Z",
+    "headers": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    }
+  },
+  {
+    "_id": "5451217b-2ee4-4dbf-9185-72071c62868a",
+    "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
+    "containerId": "ba5c4517-9e57-4ca8-ba45-f3938a010199",
+    "name": "getAll",
+    "url": "{{url}}/major-head",
+    "method": "GET",
+    "sortNum": 360000,
+    "created": "2022-10-26T15:22:05.642Z",
+    "modified": "2022-10-26T15:22:30.813Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "bd66d305-ab69-46e2-9ff9-071586806cb7",
+    "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
+    "containerId": "ba5c4517-9e57-4ca8-ba45-f3938a010199",
+    "name": "insert",
+    "url": "{{url}}/major-head",
+    "method": "POST",
+    "sortNum": 370000,
+    "created": "2022-10-26T15:22:05.643Z",
+    "modified": "2022-10-26T15:24:07.358Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"major_id\": 4,\n    \"semester_id\":1,\n    \"teacher_id\": 161\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "21c2aa90-8d0e-4ba6-86c5-213dac88f847",
+    "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
+    "containerId": "ba5c4517-9e57-4ca8-ba45-f3938a010199",
+    "name": "update",
+    "url": "{{url}}/major-head/1",
+    "method": "PUT",
+    "sortNum": 380000,
+    "created": "2022-10-26T15:22:05.644Z",
+    "modified": "2022-10-26T15:24:44.750Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"major_id\": 4,\n    \"semester_id\":1,\n    \"teacher_id\": 162\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "ea61a7a5-beaf-4176-aaa0-56950cbe77c6",
+    "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
+    "containerId": "ba5c4517-9e57-4ca8-ba45-f3938a010199",
+    "name": "delete",
+    "url": "{{url}}/major/1",
+    "method": "DELETE",
+    "sortNum": 390000,
+    "created": "2022-10-26T15:22:05.645Z",
+    "modified": "2022-10-26T15:22:05.642Z",
     "headers": [],
     "auth": {
       "type": "bearer",
