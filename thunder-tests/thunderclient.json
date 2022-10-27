@@ -2264,5 +2264,23 @@
       "type": "bearer",
       "bearer": "{{access_token}}"
     }
+  },
+  {
+    "_id": "388e8d3a-95b3-433f-85a1-d307bc983019",
+    "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
+    "containerId": "2cac8485-4bae-49c8-8e9a-1172e5f3fdb3",
+    "name": "import-hris-personnel",
+    "url": "{{url}}/teacher/import-hris-personnel/2009550035979",
+    "method": "POST",
+    "sortNum": 657500,
+    "created": "2022-10-27T16:50:28.966Z",
+    "modified": "2022-10-27T16:53:06.589Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
   }
 ]

@@ -5,7 +5,7 @@
     "default": true,
     "sortNum": 10000,
     "created": "2022-09-19T06:28:20.517Z",
-    "modified": "2022-10-24T16:03:21.079Z",
+    "modified": "2022-10-27T17:29:12.876Z",
     "data": [
       {
         "name": "url",
@@ -14,6 +14,10 @@
       {
         "name": "access_token",
         "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2LCJ1c2VybmFtZSI6InNpd2Frb3JubG9uZyIsImV4cCI6MTY2NzQ5MTM5MywiaWF0IjoxNjY2NjI3MzkzfQ.zd8BvaYsl6OfmFX_0ugaERA1PZiOr8O5qAg0negmTtU"
+      },
+      {
+        "name": "_url",
+        "value": "http://178.128.216.177:8084/api/v1"
       }
     ]
   }
