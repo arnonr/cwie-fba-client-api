@@ -1484,12 +1484,21 @@
     "method": "GET",
     "sortNum": 750000,
     "created": "2022-09-19T06:24:35.425Z",
-    "modified": "2022-09-19T06:24:35.425Z",
+    "modified": "2022-10-28T15:57:29.541Z",
     "headers": [],
+    "params": [
+      {
+        "name": "amphur_id",
+        "value": "456",
+        "isDisabled": true,
+        "isPath": false
+      }
+    ],
     "auth": {
       "type": "bearer",
       "bearer": "{{access_token}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "1eeecce7-4193-4bba-bf8b-1ca83ee512e7",
@@ -2277,6 +2286,37 @@
     "modified": "2022-10-27T16:53:06.589Z",
     "headers": [],
     "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{access_token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "e73c0c67-524d-41f6-9a7d-018f0e1bc6fc",
+    "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
+    "containerId": "0d1223eb-a400-4ab3-b8fb-defcc6b85cca",
+    "name": "list-tumbol",
+    "url": "{{url}}/tumbol/list-tumbol",
+    "method": "GET",
+    "sortNum": 760000,
+    "created": "2022-10-28T14:55:20.345Z",
+    "modified": "2022-10-28T15:58:36.458Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "tumbol_id",
+        "value": "3694",
+        "isDisabled": true,
+        "isPath": false
+      },
+      {
+        "name": "amphur_id",
+        "value": "456",
+        "isDisabled": true,
+        "isPath": false
+      }
+    ],
     "auth": {
       "type": "bearer",
       "bearer": "{{access_token}}"
