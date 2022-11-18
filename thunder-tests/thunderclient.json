@@ -511,16 +511,18 @@
     "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
     "containerId": "f2da955b-4289-44d0-bdf0-cd2a53c6b9e5",
     "name": "findByID",
-    "url": "{{url}}/form/1",
+    "url": "{{url}}/form/3",
     "method": "GET",
     "sortNum": 270000,
     "created": "2022-09-19T06:24:35.376Z",
-    "modified": "2022-09-19T06:24:35.376Z",
+    "modified": "2022-11-15T15:25:16.945Z",
     "headers": [],
+    "params": [],
     "auth": {
       "type": "bearer",
       "bearer": "{{access_token}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "8b6eb8f3-f1b4-4e5c-8312-6caf2a1bc8f4",
@@ -531,7 +533,7 @@
     "method": "POST",
     "sortNum": 280000,
     "created": "2022-09-19T06:24:35.377Z",
-    "modified": "2022-10-24T16:45:04.150Z",
+    "modified": "2022-11-15T17:14:50.536Z",
     "headers": [],
     "params": [],
     "body": {
@@ -548,7 +550,8 @@
         },
         {
           "name": "company_id",
-          "value": "1"
+          "value": "1",
+          "isDisabled": true
         },
         {
           "name": "status_id",
@@ -569,6 +572,10 @@
         {
           "name": "co_position",
           "value": "manager"
+        },
+        {
+          "name": "company",
+          "value": "{ \"name_th\": \"tesxxxxxxxct\", \"name_en\": \"dsfdsvcvvv\", \"tel\": \"sdsd\", \"fax\": \"sadsa\", \"email\": \"sasd@dads.com\", \"website\": \"sdasd\", \"address\": \"sadsad\", \"province_id\": 2, \"amphur_id\": 53, \"tumbol_id\": 204 }"
         }
       ],
       "files": [
@@ -597,17 +604,28 @@
     "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
     "containerId": "f2da955b-4289-44d0-bdf0-cd2a53c6b9e5",
     "name": "update",
-    "url": "{{url}}/form/6",
+    "url": "{{url}}/form/3",
     "method": "PUT",
     "sortNum": 290000,
     "created": "2022-09-19T06:24:35.378Z",
-    "modified": "2022-10-24T16:44:20.945Z",
+    "modified": "2022-11-18T14:36:31.311Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "formdata",
       "raw": "",
-      "form": [],
+      "form": [
+        {
+          "name": "company_id",
+          "value": "1",
+          "isDisabled": true
+        },
+        {
+          "name": "company",
+          "value": "{ \"name_th\": \"tesct\", \"name_en\": \"dsfdsvcvvv\", \"tel\": \"sdsd\", \"fax\": \"sadsa\", \"email\": \"sasd@dads.com\", \"website\": \"sdasd\", \"address\": \"sadsad\", \"province_id\": 2, \"amphur_id\": 53, \"tumbol_id\": 204 }",
+          "isDisabled": true
+        }
+      ],
       "files": [
         {
           "name": "response_document_file_upload",
@@ -615,11 +633,13 @@
         },
         {
           "name": "workplace_googlemap_file_upload",
-          "value": "c:\\Users\\siwakornl\\Downloads\\รักษาการ ผอ. กองส่งเสริมวิชาการ.pdf"
+          "value": "c:\\Users\\siwakornl\\Downloads\\รักษาการ ผอ. กองส่งเสริมวิชาการ.pdf",
+          "isDisabled": true
         },
         {
           "name": "plan_document_file_upload",
-          "value": "c:\\Users\\siwakornl\\Downloads\\ประกาศรายชื่อผู้สมัครเข้ารับการประเมินฯ .pdf"
+          "value": "c:\\Users\\siwakornl\\Downloads\\ประกาศรายชื่อผู้สมัครเข้ารับการประเมินฯ .pdf",
+          "isDisabled": true
         }
       ]
     },
@@ -1110,11 +1130,11 @@
     "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
     "containerId": "5745bd37-37a0-426c-bcc9-3947c82bf4b9",
     "name": "update",
-    "url": "{{url}}/student-document/1",
+    "url": "{{url}}/student-document/2",
     "method": "PUT",
     "sortNum": 600000,
     "created": "2022-09-19T06:24:35.410Z",
-    "modified": "2022-10-24T16:50:52.719Z",
+    "modified": "2022-11-18T14:54:57.684Z",
     "headers": [],
     "params": [],
     "body": {
@@ -1284,11 +1304,11 @@
     "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
     "containerId": "2cac8485-4bae-49c8-8e9a-1172e5f3fdb3",
     "name": "update",
-    "url": "{{url}}/teacher/159",
+    "url": "{{url}}/teacher/53",
     "method": "PUT",
     "sortNum": 660000,
     "created": "2022-09-19T06:24:35.416Z",
-    "modified": "2022-10-24T16:40:02.307Z",
+    "modified": "2022-11-18T14:26:48.514Z",
     "headers": [],
     "params": [],
     "body": {
@@ -1349,7 +1369,7 @@
     "method": "POST",
     "sortNum": 690000,
     "created": "2022-09-19T06:24:35.419Z",
-    "modified": "2022-10-24T16:55:50.489Z",
+    "modified": "2022-11-18T14:58:41.867Z",
     "headers": [],
     "params": [],
     "body": {
@@ -1358,7 +1378,7 @@
       "form": [
         {
           "name": "visit_id",
-          "value": "1"
+          "value": "2"
         }
       ],
       "files": [
@@ -1379,11 +1399,11 @@
     "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
     "containerId": "3aa7606c-9829-4d49-af87-3296b549c986",
     "name": "update",
-    "url": "{{url}}/visit-image/1",
+    "url": "{{url}}/visit-image/2",
     "method": "PUT",
     "sortNum": 700000,
     "created": "2022-09-19T06:24:35.420Z",
-    "modified": "2022-10-24T16:56:14.860Z",
+    "modified": "2022-11-18T14:58:54.172Z",
     "headers": [],
     "params": [],
     "body": {
@@ -1509,7 +1529,7 @@
     "method": "POST",
     "sortNum": 760000,
     "created": "2022-09-19T06:24:35.426Z",
-    "modified": "2022-10-24T16:53:55.855Z",
+    "modified": "2022-11-18T14:56:58.220Z",
     "headers": [],
     "params": [],
     "body": {
@@ -1522,7 +1542,7 @@
         },
         {
           "name": "supervision_id",
-          "value": "161"
+          "value": "53"
         },
         {
           "name": "visit_date",
@@ -1567,11 +1587,11 @@
     "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
     "containerId": "4620d681-8331-4155-83cb-0911c9322e9a",
     "name": "update",
-    "url": "{{url}}/visit/1",
+    "url": "{{url}}/visit/2",
     "method": "PUT",
     "sortNum": 770000,
     "created": "2022-09-19T06:24:35.427Z",
-    "modified": "2022-10-24T16:53:05.162Z",
+    "modified": "2022-11-18T14:57:17.540Z",
     "headers": [],
     "params": [],
     "body": {
@@ -1768,11 +1788,11 @@
     "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
     "containerId": "2a65e0fc-a9ba-42c4-b293-0a7239a93707",
     "name": "import-icit-account",
-    "url": "{{url}}/user/import-icit-account/arnonr",
+    "url": "{{url}}/user/import-icit-account/siwakornlong",
     "method": "POST",
     "sortNum": 870000,
     "created": "2022-09-19T06:24:35.437Z",
-    "modified": "2022-10-14T17:45:56.657Z",
+    "modified": "2022-11-04T14:32:14.593Z",
     "headers": [],
     "params": [],
     "auth": {
@@ -1997,13 +2017,32 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-09-21T15:45:52.310Z",
-    "modified": "2022-09-21T15:56:34.959Z",
+    "modified": "2022-11-18T14:47:33.222Z",
     "headers": [],
     "params": [],
     "body": {
-      "type": "json",
-      "raw": "{\n    \"news_title\": \"ข่าวสถานประกอบการ\"\n}",
-      "form": []
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "news_title",
+          "value": "ทดสอบ"
+        },
+        {
+          "name": "news_detail",
+          "value": "ทดสอบ"
+        },
+        {
+          "name": "news_cate_id",
+          "value": "1"
+        }
+      ],
+      "files": [
+        {
+          "name": "news_file_upload",
+          "value": "c:\\Users\\siwakornl\\Downloads\\รศ.ดร.มนต์ชัย เทียนทอง .jpg"
+        }
+      ]
     },
     "auth": {
       "type": "bearer",
@@ -2016,17 +2055,32 @@
     "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
     "containerId": "541c2dd5-608a-4752-8b07-d95d93b1ae3e",
     "name": "update",
-    "url": "{{url}}/news-category/1",
+    "url": "{{url}}/news/4",
     "method": "PUT",
     "sortNum": 30000,
     "created": "2022-09-21T15:45:52.311Z",
-    "modified": "2022-09-21T15:45:52.309Z",
+    "modified": "2022-11-18T14:48:33.305Z",
     "headers": [],
     "params": [],
     "body": {
-      "type": "json",
-      "raw": "{\n    \"news_cate_name\": \"ข่าวสถานประกอบการ 2\"\n}",
-      "form": []
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "news_title",
+          "value": "ทดสอบแก้ไข"
+        },
+        {
+          "name": "news_detail",
+          "value": "ทดสอบแก้ไขทดสอบแก้ไข"
+        }
+      ],
+      "files": [
+        {
+          "name": "news_file_upload",
+          "value": "c:\\Users\\siwakornl\\Downloads\\แบบฟอร์มใบผู้รับผลประโยชน์.pdf"
+        }
+      ]
     },
     "auth": {
       "type": "bearer",
