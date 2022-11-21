@@ -604,11 +604,11 @@
     "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
     "containerId": "f2da955b-4289-44d0-bdf0-cd2a53c6b9e5",
     "name": "update",
-    "url": "{{url}}/form/3",
+    "url": "{{url}}/form/10",
     "method": "PUT",
     "sortNum": 290000,
     "created": "2022-09-19T06:24:35.378Z",
-    "modified": "2022-11-18T14:36:31.311Z",
+    "modified": "2022-11-20T14:36:20.604Z",
     "headers": [],
     "params": [],
     "body": {
@@ -624,6 +624,22 @@
           "name": "company",
           "value": "{ \"name_th\": \"tesct\", \"name_en\": \"dsfdsvcvvv\", \"tel\": \"sdsd\", \"fax\": \"sadsa\", \"email\": \"sasd@dads.com\", \"website\": \"sdasd\", \"address\": \"sadsad\", \"province_id\": 2, \"amphur_id\": 53, \"tumbol_id\": 204 }",
           "isDisabled": true
+        },
+        {
+          "name": "supervision_id",
+          "value": "53"
+        },
+        {
+          "name": "province_id",
+          "value": "1"
+        },
+        {
+          "name": "amphur_id",
+          "value": "1"
+        },
+        {
+          "name": "tumbol_id",
+          "value": "1"
         }
       ],
       "files": [
@@ -970,12 +986,21 @@
     "method": "GET",
     "sortNum": 520000,
     "created": "2022-09-19T06:24:35.402Z",
-    "modified": "2022-09-19T06:24:35.402Z",
+    "modified": "2022-11-21T07:31:18.182Z",
     "headers": [],
+    "params": [
+      {
+        "name": "student_id",
+        "value": "3",
+        "isDisabled": true,
+        "isPath": false
+      }
+    ],
     "auth": {
       "type": "bearer",
       "bearer": "{{access_token}}"
-    }
+    },
+    "tests": []
   },
   {
     "_id": "b8f36743-14d7-4248-92c4-4c9fb73fe8e1",
@@ -1005,21 +1030,21 @@
     "colId": "9b1e361f-1ce6-40e6-8e06-2ee6c2297d8e",
     "containerId": "f2ac59ec-8448-4c8d-b41f-f8410ca896a4",
     "name": "update",
-    "url": "{{url}}/student/1",
+    "url": "{{url}}/student/3",
     "method": "PUT",
     "sortNum": 540000,
     "created": "2022-09-19T06:24:35.404Z",
-    "modified": "2022-09-21T16:46:34.034Z",
+    "modified": "2022-11-21T07:29:23.912Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"name\": \"แผนที่สหกิจ2\",\n    \"description\": \"ddd\"\n}",
+      "raw": "{\n    \"advisor_id\": 53\n}",
       "form": []
     },
     "auth": {
       "type": "bearer",
-      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFybm9uciIsImV4cCI6MTY2MzA4ODUwMSwiaWF0IjoxNjYyMjI0NTAxfQ.5IWHv8Fsnz1xThKT3wX1r7VR_IO4H0E-xEZpUXqaaZ4"
+      "bearer": "{{access_token}}"
     },
     "tests": []
   },
@@ -1679,12 +1704,12 @@
     "method": "POST",
     "sortNum": 810000,
     "created": "2022-09-19T06:24:35.431Z",
-    "modified": "2022-10-11T15:38:46.115Z",
+    "modified": "2022-11-19T06:16:32.954Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"username\": \"siwakornlong\",\n    \"_username\": \"s5402041520261\",\n    \"password\": \"12345678\"\n}",
+      "raw": "{\n    \"_username\": \"siwakornlong\",\n    \"username\": \"s5402041520261\",\n    \"password\": \"12345678\"\n}",
       "form": []
     },
     "auth": {
